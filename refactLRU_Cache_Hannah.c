@@ -1,3 +1,6 @@
+/*Este código simula un sistema de caché de tamaño fijo de last recently used, donde se accede de manera concurrente mediante hilos
+usando planificación Round Robin, y gestiona la memoria compartida y la sincronización entre procesos.*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
